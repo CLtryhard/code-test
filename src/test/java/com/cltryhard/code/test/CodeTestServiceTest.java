@@ -28,7 +28,7 @@ public class CodeTestServiceTest {
      */
     @Test
     public void testRemoveDuplicateCharacter(){
-        String result = codeTestService.removeDuplicateCharacter("aabcccbbad");
+        String result = codeTestService.removeDuplicateCharacter("aabcccbbad", 3);
         Assertions.assertEquals("d", result);
     }
 

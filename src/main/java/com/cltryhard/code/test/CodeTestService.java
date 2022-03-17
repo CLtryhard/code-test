@@ -14,10 +14,11 @@ public interface CodeTestService {
      * @author LanceChan
      * @date 2022/3/16
      * @param str
+     * @param limit
      * @return java.lang.String
      * @since 1.0.0
     */
-    String removeDuplicateCharacter(String str);
+    String removeDuplicateCharacter(String str, int limit);
 
     /**
      * Instead of removing the consecutively identical characters, replace them with a
